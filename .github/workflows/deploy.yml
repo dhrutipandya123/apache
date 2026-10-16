@@ -17,5 +17,5 @@ jobs:
 
       - name: Deploy Website
         run: |
-          cp index.html /var/www/html/devopslaunch/index.html
+          cp index.html /var/www/html/apache/index.html
           echo "Website deployed successfully!"
